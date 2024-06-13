@@ -31,7 +31,7 @@ const CONFIG = {
         description:
           'Aerial is a Windows screen saver that mimics Apple\'s Apple TV screensaver functionality. I am responsible for code cleanup, testing pre-releases and compiling the documentation of the project.',
         imageUrl:
-          'https://github.com/OrangeJedi/Aerial/blob/master/images/icon/icon%20v2.png',
+          '/src/assets/aerial-icon.png',
         link: 'https://github.com/OrangeJedi/Aerial',
       },],
     },
