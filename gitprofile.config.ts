@@ -64,7 +64,7 @@ const CONFIG = {
     email: 'vasileiospat@hotmail.com',
   },
   resume: {
-    fileUrl: '/assets/CV_EN.pdf',
+    fileUrl: '/src/assets/CV_EN.pdf',
   },
   skills: [
     'C',
