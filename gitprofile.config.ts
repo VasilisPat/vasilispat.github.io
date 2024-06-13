@@ -1,3 +1,5 @@
+// gitprofile.config.ts
+
 const CONFIG = {
   github: {
     username: 'VasilisPat',
@@ -9,11 +11,11 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: ['ModernFlyouts', 'vasilispat.github.io'], // These projects will not be displayed.
+          forks: true, // Forked projects will not be displayed if set to true.
+          projects: ['VasilisPat/vasilispat.github.io'], // These projects will not be displayed.
         },
       },
       manual: {
@@ -22,9 +24,16 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'My Side Projects',
       // To hide the `External Projects` section, keep it empty.
-      projects: [],
+      projects: [ {
+        title: 'Aerial Screensaver for Windows',
+        description:
+          'Aerial is a Windows screen saver that mimics Apple\'s Apple TV screensaver functionality. I am responsible for code cleanup, testing pre-releases and compiling the documentation of the project.',
+        imageUrl:
+          'https://github.com/OrangeJedi/Aerial/blob/master/images/icon/icon%20v2.png',
+        link: 'https://github.com/OrangeJedi/Aerial',
+      },],
     },
   },
   seo: {
@@ -55,26 +64,28 @@ const CONFIG = {
     email: 'vasileiospat@hotmail.com',
   },
   resume: {
-    fileUrl:'/assets/CV_EN.pdf',
+    fileUrl: '/assets/CV_EN.pdf',
+  },
   skills: [
     'C',
     'C++',
     'Java SDK',
     'Unix Bash',
-    'MySQL/MariaDB',
+    'MySQL',
+    'MariaDB',
     'Docker',
   ],
   experiences: [
     {
       company: 'South Cross Shipping & Trading Greece Co. Ltd',
-      position: '',
+      position: 'IT Consultant',
       from: 'November 2018',
       to: 'September 2020',
       companyLink: '',
     },
     {
       company: 'RadioHellenic S.A.',
-      position: '',
+      position: 'IT Support Technician',
       from: 'June 2019',
       to: 'September 2019',
       companyLink: '',
@@ -137,6 +148,6 @@ const CONFIG = {
   },
 
   enablePWA: true,
-};
+}
 
 export default CONFIG;
