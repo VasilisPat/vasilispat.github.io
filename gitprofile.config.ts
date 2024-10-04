@@ -77,6 +77,13 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'F.T.S. Hellas S.A.',
+      position: 'Networking & Equipment Specialist',
+      from: 'September 2024',
+      to: '',
+      companyLink: '',
+    },
+    {
       company: 'South Cross Shipping & Trading Greece Co. Ltd',
       position: 'IT Consultant',
       from: 'November 2018',
