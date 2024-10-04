@@ -80,7 +80,7 @@ const CONFIG = {
       company: 'F.T.S. Hellas S.A.',
       position: 'Networking & Equipment Specialist',
       from: 'September 2024',
-      to: '',
+      to: 'Today',
       companyLink: '',
     },
     {
