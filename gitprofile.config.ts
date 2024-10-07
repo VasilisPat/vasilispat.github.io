@@ -64,7 +64,7 @@ const CONFIG = {
     email: 'vasileiospat@hotmail.com',
   },
   resume: {
-    fileUrl: '/src/assets/CV_EN.pdf',
+    fileUrl: 'src/assets/CV_EN.pdf',
   },
   skills: [
     'C',
@@ -80,7 +80,7 @@ const CONFIG = {
       company: 'F.T.S. Hellas S.A.',
       position: 'Networking & Equipment Specialist',
       from: 'September 2024',
-      to: 'Today',
+      to: 'Present',
       companyLink: '',
     },
     {
