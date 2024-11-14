@@ -61,7 +61,7 @@ const CONFIG = {
     telegram: '',
     website: '',
     phone: '',
-    email: 'vasileiospat@hotmail.com',
+    email: '',
   },
   resume: {
     fileUrl: '',
