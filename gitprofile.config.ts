@@ -85,14 +85,14 @@ const CONFIG = {
     },
     {
       company: 'South Cross Shipping & Trading Greece Co. Ltd',
-      position: 'IT Consultant',
+      position: 'IT Systems Engineer',
       from: 'November 2018',
       to: 'September 2020',
       companyLink: '',
     },
     {
       company: 'RadioHellenic S.A.',
-      position: 'IT Support Technician',
+      position: 'IT Services Technician',
       from: 'June 2019',
       to: 'September 2019',
       companyLink: '',
@@ -104,7 +104,7 @@ const CONFIG = {
   educations: [
     {
       institution: 'University of West Attica - Department of Informatics and Computer Engineering',
-      degree: 'Informatics and Computer Engineer, Integrated Master',
+      degree: 'Informatics and Computer Engineer, MEng',
       from: '2018',
       to: 'Present',
     },
